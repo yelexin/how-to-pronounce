@@ -2,11 +2,11 @@
 
 A linux shell script that can grab the pronunciation mp3 file of an input word.
 
-# Prerequisite
+## Prerequisite
 
 You have installed `grep`, `curl`, `sed` and `head` in your system.
 
-# Usage
+## Usage
 
 Simply run the following command to see the result:
 
@@ -17,7 +17,7 @@ $ ./lookup.sh good
 
 You'll get an mp3 file whose name is good.mp3 in the current path and you can play it.
 
-# Add the script to your PATH
+## Add the script to your PATH
 
 If you want to make this script a system command, you can add it to the PATH env.
 
@@ -65,7 +65,7 @@ Before you run the script globally, make sure you have given it exec permission 
 $ chmod +x lookup.sh
 ```
 
-# Custom the download path
+## Custom the download path
 
 If you want to download the mp3 files to a specific path, you can change the script:
 
