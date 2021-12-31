@@ -73,7 +73,7 @@ If you want to download the mp3 files to a specific path, you can change the scr
 ...
 wget -O /path/to/your/folder/$1.mp3 $url 2> /dev/null
 ...
-echo /path/to/your/folder/1.mp3
+echo /path/to/your/folder/$1.mp3
 ```
 
 Don't forget to create the folder for saving downloaded files before you run the script.
