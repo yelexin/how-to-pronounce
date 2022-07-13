@@ -32,7 +32,7 @@ $ mkdir ~/bin
 Copy the script to the directory:
 
 ```shell
-$ cp lookup.sh ~/.bin
+$ cp lookup.sh ~/bin
 ```
 
 Add the following line to `~/.bashrc` or `~/.zshrc`(based on the shell you are using):
